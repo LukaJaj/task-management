@@ -1,11 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
 using task_management_system.Models;
 using Task = System.Threading.Tasks.Task;
 
 namespace task_management_system.Repository;
 
-public class TaskRepository:ITaskRepository
+public class TaskRepository : ITaskRepository
 {
     private readonly ApplicationDbContext _db;
 

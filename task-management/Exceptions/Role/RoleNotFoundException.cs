@@ -1,9 +1,12 @@
-using System;
-namespace task_management_system
+namespace task_management_system;
+
+public class RoleNotFoundException : Exception
 {
-    public class RoleNotFoundException : Exception
+    public RoleNotFoundException()
     {
-        public RoleNotFoundException() : base() { }
-        public RoleNotFoundException(string message) : base(message) { }
+    }
+
+    public RoleNotFoundException(string message) : base(message)
+    {
     }
 }

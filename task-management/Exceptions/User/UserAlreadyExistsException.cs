@@ -1,9 +1,12 @@
-namespace task_management_system
-{
-    public class UserAlreadyExistsException:Exception
-    {
-        public UserAlreadyExistsException() : base() {}
-        public UserAlreadyExistsException(string message) : base(message) { }
+namespace task_management_system;
 
+public class UserAlreadyExistsException : Exception
+{
+    public UserAlreadyExistsException()
+    {
+    }
+
+    public UserAlreadyExistsException(string message) : base(message)
+    {
     }
 }

@@ -5,7 +5,6 @@ namespace task_management_system.Services;
 
 public interface ITaskService
 {
-
     List<TaskResponse> GetAllTasks();
     Task DeleteTaskById(string id, string userId);
     Task UpdateTask(TaskRequest? task);

@@ -1,7 +1,12 @@
 namespace task_management_system;
 
-public class TaskCouldNotBeCreatedException: Exception
+public class TaskCouldNotBeCreatedException : Exception
 {
-    public TaskCouldNotBeCreatedException() : base() {}
-    public TaskCouldNotBeCreatedException(string message) : base(message) { }
+    public TaskCouldNotBeCreatedException()
+    {
+    }
+
+    public TaskCouldNotBeCreatedException(string message) : base(message)
+    {
+    }
 }

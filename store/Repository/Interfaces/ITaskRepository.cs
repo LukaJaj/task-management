@@ -1,14 +1,12 @@
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using task_management_system.Models;
-using Task = System.Threading.Tasks.Task;
+using Task = task_management_system.Models.Task;
 
 namespace task_management_system.Repository;
 
 public interface ITaskRepository
 {
-    Task<List<Models.Task?>> GetAllTasks();
-    Task DeleteTask(Models.Task? task);
-    Task UpdateTask(Models.Task? task);
-    Task CreateTask(Models.Task? task);
-    Task<Models.Task?> GetTask (string id);
+    Task<List<Task?>> GetAllTasks();
+    System.Threading.Tasks.Task DeleteTask(Task? task);
+    System.Threading.Tasks.Task UpdateTask(Task? task);
+    System.Threading.Tasks.Task CreateTask(Task? task);
+    Task<Task?> GetTask(string id);
 }

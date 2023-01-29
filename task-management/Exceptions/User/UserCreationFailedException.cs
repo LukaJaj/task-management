@@ -1,11 +1,12 @@
+namespace task_management_system;
 
-namespace task_management_system
+public class UserCreationFailedException : Exception
 {
-    public class UserCreationFailedException : Exception
+    public UserCreationFailedException()
     {
-        public UserCreationFailedException() : base() { }
-        public UserCreationFailedException(string message) : base(message) { }
+    }
 
+    public UserCreationFailedException(string message) : base(message)
+    {
     }
 }
-

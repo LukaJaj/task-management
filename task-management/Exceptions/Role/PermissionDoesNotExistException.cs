@@ -1,7 +1,12 @@
 namespace task_management_system;
 
-public class PermissionDoesNotExistException: Exception
+public class PermissionDoesNotExistException : Exception
 {
-    public PermissionDoesNotExistException() : base() {}
-    public PermissionDoesNotExistException(string message) : base(message) { }
+    public PermissionDoesNotExistException()
+    {
+    }
+
+    public PermissionDoesNotExistException(string message) : base(message)
+    {
+    }
 }

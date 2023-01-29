@@ -12,14 +12,12 @@ public class PermissionRepository : IPermissionRepository
     {
         _db = db;
     }
+
     public async Task AddPermissionToExistingUser(User? existingUser, string permission)
     {
         var p = existingUser?.Permissions?.Any(o => o == permission);
-        if (p is true)
-        {
-            throw new Exception("duplicate permission");
-        }
-        
+        if (p is true) throw new Exception("duplicate permission");
+
         existingUser?.Permissions?.Add(permission);
         _db.Users.Update(existingUser);
         await _db.SaveChangesAsync();
@@ -29,5 +27,4 @@ public class PermissionRepository : IPermissionRepository
     {
         return await _db.Permissions.FirstOrDefaultAsync(p => p.Name == permissionName);
     }
-
 }
