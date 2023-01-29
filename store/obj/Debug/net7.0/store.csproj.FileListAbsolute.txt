@@ -1,0 +1,12 @@
+/Users/lukajajanidze/RiderProjects/task-management/store/bin/Debug/net7.0/store.deps.json
+/Users/lukajajanidze/RiderProjects/task-management/store/bin/Debug/net7.0/store.dll
+/Users/lukajajanidze/RiderProjects/task-management/store/bin/Debug/net7.0/store.pdb
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/store.csproj.AssemblyReference.cache
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/store.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/store.AssemblyInfoInputs.cache
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/store.AssemblyInfo.cs
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/store.csproj.CoreCompileInputs.cache
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/store.dll
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/refint/store.dll
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/store.pdb
+/Users/lukajajanidze/RiderProjects/task-management/store/obj/Debug/net7.0/ref/store.dll
